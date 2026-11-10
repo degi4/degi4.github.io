@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal homepage of Denis - First-year IT student at Inha University in Tashkent. Explore my courses, projects, and contact info.">
+  <title>Denis | IT Student @ Inha University in Tashkent</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23282828%22/><text y=%2268%22 x=%2250%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-size=%2260%22 font-weight=%22bold%22 fill=%22%23fabd2f%22>D</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Denis Homepage">
+        <span class="prompt-prefix">denis@iut:</span><span class="prompt-tilde">~</span><span class="prompt-char">$</span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About me</a></li>
+          <li><a href="#courses" class="nav-link">My courses</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Theme Switcher Button -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch theme mode" title="Switch theme mode">
+          <span class="theme-icon" id="theme-icon">☀️</span>
+          <span class="theme-text" id="theme-text">Light Mode</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>First-Year Student @ Inha University in Tashkent</span>
+          </div>
+          <h1 class="hero-title">
+            Hello, I'm <span class="accent-text">Denis</span>.
+          </h1>
+          <p class="hero-subtitle">
+            An aspiring software engineer and IT student exploring algorithms, systems programming, and modern web development.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <span class="btn-arrow">→</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-label">Department:</span>
+              <span class="meta-value">Computer Science & Information Engineering</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Campus:</span>
+              <span class="meta-value">Tashkent, Uzbekistan</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <span class="t-btn t-btn-red"></span>
+              <span class="t-btn t-btn-yellow"></span>
+              <span class="t-btn t-btn-green"></span>
+              <span class="t-title">denis_profile.sh</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="t-comment"># Developer & Student Profile</span></p>
+              <p><span class="t-var">NAME</span>=<span class="t-str">"Denis"</span></p>
+              <p><span class="t-var">UNIVERSITY</span>=<span class="t-str">"Inha University in Tashkent"</span></p>
+              <p><span class="t-var">YEAR</span>=<span class="t-num">1</span> <span class="t-comment"># Freshman</span></p>
+              <p><span class="t-var">FOCUS</span>=(<span class="t-str">"C++"</span> <span class="t-str">"Algorithms"</span> <span class="t-str">"Web"</span> <span class="t-str">"Linux"</span>)</p>
+              <p><span class="t-var">CURRENT_GOAL</span>=<span class="t-str">"Build strong CS foundations"</span></p>
+              <p class="t-cursor"><span class="t-prompt">$</span> echo $STATUS &gt;&gt; Ready to build <span class="cursor-blink">_</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">01.</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Welcome to my digital space! I am a freshman studying Information Technology at 
+              <strong>Inha University in Tashkent (IUT)</strong>. My journey into tech began with a deep curiosity 
+              for how software works under the hood—from basic logic gates to distributed systems.
+            </p>
+            <p>
+              Right now, I am immersing myself in computer science fundamentals: mastering object-oriented programming, 
+              sharpening problem-solving through discrete mathematics, and exploring command-line environments. 
+              I value clean, readable code and robust architecture over complex shortcuts.
+            </p>
+            <p>
+              When I'm not in lectures or debugging C++ code, you will find me configuring my Linux setup, 
+              learning new web technologies, collaborating with classmates on hackathon prototypes, or exploring retro color themes like <em>Gruvbox</em>.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-card">
+                <span class="highlight-icon">🎓</span>
+                <div>
+                  <h4 class="highlight-title">Inha University in Tashkent</h4>
+                  <p class="highlight-desc">B.S. in Computer and Information Engineering (Freshman)</p>
+                </div>
+              </div>
+              <div class="highlight-card">
+                <span class="highlight-icon">📍</span>
+                <div>
+                  <h4 class="highlight-title">Based in Tashkent</h4>
+                  <p class="highlight-desc">Open to student internships, mentorship & open-source</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <h3 class="skills-heading">Skills & Technologies</h3>
+            <p class="skills-subheading">Languages and tools I use in my academic and personal projects:</p>
+
+            <div class="skill-category">
+              <span class="category-name">Programming Languages</span>
+              <div class="skill-tags">
+                <span class="tag tag-yellow">C / C++</span>
+                <span class="tag tag-blue">Python</span>
+                <span class="tag tag-green">JavaScript</span>
+                <span class="tag tag-orange">HTML5 & CSS3</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <span class="category-name">Tools & Environment</span>
+              <div class="skill-tags">
+                <span class="tag tag-aqua">Linux (Bash)</span>
+                <span class="tag tag-purple">Git & GitHub</span>
+                <span class="tag tag-yellow">VS Code & Neovim</span>
+                <span class="tag tag-blue">GCC / Clang</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <span class="category-name">Academic Concepts</span>
+              <div class="skill-tags">
+                <span class="tag">Object-Oriented Design</span>
+                <span class="tag">Discrete Mathematics</span>
+                <span class="tag">Data Structures</span>
+                <span class="tag">Algorithm Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Courses Section -->
+    <section class="section courses-section" id="courses">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">02.</span>
+          <h2 class="section-title">My Courses</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-intro">
+          My first-year curriculum at Inha University in Tashkent focuses on building a solid mathematical 
+          and computational foundation. Here are the core courses I am actively taking and studying:
+        </p>
+
+        <div class="courses-grid">
+          <!-- Course Card 1 -->
+          <article class="course-card">
+            <div class="course-card-top">
+              <span class="course-code">CSE101</span>
+              <span class="course-badge badge-active">In Progress</span>
+            </div>
+            <h3 class="course-name">Object-Oriented Programming</h3>
+            <p class="course-instructor">Instructor: Faculty of SOCIE</p>
+            <p class="course-description">
+              Core principles of OOP using C++: classes, objects, inheritance, polymorphism, encapsulation, memory management, and templates.
+            </p>
+            <div class="course-topics">
+              <span class="topic-pill">C++</span>
+              <span class="topic-pill">Pointers & Memory</span>
+              <span class="topic-pill">Design Patterns</span>
+              <span class="topic-pill">Data Abstraction</span>
+            </div>
+          </article>
+
+          <!-- Course Card 2 -->
+          <article class="course-card">
+            <div class="course-card-top">
+              <span class="course-code">MTH101</span>
+              <span class="course-badge badge-active">In Progress</span>
+            </div>
+            <h3 class="course-name">Calculus & Analytical Geometry</h3>
+            <p class="course-instructor">Department of Mathematics</p>
+            <p class="course-description">
+              Limits, differentiation, integration techniques, multivariable functions, and their applications in computer science modeling.
+            </p>
+            <div class="course-topics">
+              <span class="topic-pill">Derivatives</span>
+              <span class="topic-pill">Integrals</span>
+              <span class="topic-pill">Optimization</span>
+              <span class="topic-pill">Vectors</span>
+            </div>
+          </article>
+
+          <!-- Course Card 3 -->
+          <article class="course-card">
+            <div class="course-card-top">
+              <span class="course-code">CSE104</span>
+              <span class="course-badge badge-active">In Progress</span>
+            </div>
+            <h3 class="course-name">Discrete Mathematics</h3>
+            <p class="course-instructor">Department of Computer Science</p>
+            <p class="course-description">
+              Mathematical logic, set theory, combinatorics, graph theory, proof techniques, and boolean algebra foundational for computing.
+            </p>
+            <div class="course-topics">
+              <span class="topic-pill">Graph Theory</span>
+              <span class="topic-pill">Combinatorics</span>
+              <span class="topic-pill">Logic & Proofs</span>
+              <span class="topic-pill">Recurrences</span>
+            </div>
+          </article>
+
+          <!-- Course Card 4 -->
+          <article class="course-card">
+            <div class="course-card-top">
+              <span class="course-code">CSE102</span>
+              <span class="course-badge badge-active">In Progress</span>
+            </div>
+            <h3 class="course-name">Introduction to Computer Systems</h3>
+            <p class="course-instructor">Department of Computer Engineering</p>
+            <p class="course-description">
+              Von Neumann architecture, binary representations, basic assembly, memory hierarchy, CPU operation, and OS essentials.
+            </p>
+            <div class="course-topics">
+              <span class="topic-pill">Computer Architecture</span>
+              <span class="topic-pill">Binary Logic</span>
+              <span class="topic-pill">CPU & Memory</span>
+              <span class="topic-pill">Linux Shell</span>
+            </div>
+          </article>
+
+          <!-- Course Card 5 -->
+          <article class="course-card">
+            <div class="course-card-top">
+              <span class="course-code">ENG101</span>
+              <span class="course-badge badge-completed">Completed</span>
+            </div>
+            <h3 class="course-name">Academic English & Tech Writing</h3>
+            <p class="course-instructor">Department of Humanities</p>
+            <p class="course-description">
+              Technical documentation, research paper analysis, engineering presentations, and clear technical communication in English.
+            </p>
+            <div class="course-topics">
+              <span class="topic-pill">Tech Documentation</span>
+              <span class="topic-pill">Presentations</span>
+              <span class="topic-pill">Research Writing</span>
+            </div>
+          </article>
+
+          <!-- Course Card 6 -->
+          <article class="course-card">
+            <div class="course-card-top">
+              <span class="course-code">PHY101</span>
+              <span class="course-badge badge-completed">Completed</span>
+            </div>
+            <h3 class="course-name">Physics for Engineers</h3>
+            <p class="course-instructor">Department of Applied Sciences</p>
+            <p class="course-description">
+              Classical mechanics, wave motion, electromagnetism basics, and semiconductor fundamentals applied to electronic devices.
+            </p>
+            <div class="course-topics">
+              <span class="topic-pill">Mechanics</span>
+              <span class="topic-pill">Electromagnetism</span>
+              <span class="topic-pill">Circuits</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">03.</span>
+          <h2 class="section-title">Projects</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-intro">
+          Practical applications built to reinforce what I learn in class and during independent exploration:
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-folder">📁</div>
+              <div class="project-links">
+                <a href="https://github.com/degi4" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub Repository" title="GitHub: degi4">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">IUT Student Record System</h3>
+            <p class="project-desc">
+              A high-performance C++ command-line application for managing student courses, grades, and GPA calculations with binary file persistence, error handling, and search filters.
+            </p>
+            <div class="project-tech">
+              <span>C++17</span>
+              <span>File I/O</span>
+              <span>OOP</span>
+              <span>CLI</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-folder">📁</div>
+              <div class="project-links">
+                <a href="#hero" class="icon-link" aria-label="Live Demo" title="Current Page">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Gruvbox Personal Homepage</h3>
+            <p class="project-desc">
+              My responsive personal website crafted with zero frameworks using pure semantic HTML5, modern CSS custom properties, and vanilla JavaScript. Features full Gruvbox dark & light themes.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Vanilla JS</span>
+              <span>Responsive</span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-folder">📁</div>
+              <div class="project-links">
+                <a href="https://github.com/degi4" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub Repository" title="GitHub: degi4">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Inha Timetable Assistant</h3>
+            <p class="project-desc">
+              A lightweight Python automation tool that syncs student class schedules from university portal formats into clean calendar reminders and quick Telegram bot notifications.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Telegram API</span>
+              <span>JSON Parsing</span>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-folder">📁</div>
+              <div class="project-links">
+                <a href="https://github.com/degi4" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub Repository" title="GitHub: degi4">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Algorithm Visualizer</h3>
+            <p class="project-desc">
+              Interactive browser tool demonstrating step-by-step sorting algorithms (QuickSort, MergeSort, BubbleSort) with adjustable speed, step playback, and complexity comparisons.
+            </p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+              <span>HTML5 Canvas</span>
+              <span>Algorithms</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">04.</span>
+          <h2 class="section-title">Contact</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-intro">
+          Whether you have a question, want to collaborate on a coding project, or just want to say hi, my inbox is always open!
+        </p>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3 class="contact-subtitle">Get in Touch</h3>
+            <p class="contact-lead">
+              I am always happy to connect with fellow students, developers, and tech enthusiasts.
+            </p>
+
+            <div class="contact-links-list">
+              <a href="mailto:degi4mail@gmail.com" class="contact-channel-item">
+                <span class="channel-icon">✉️</span>
+                <div>
+                  <span class="channel-label">Email</span>
+                  <span class="channel-value">degi4mail@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="https://t.me/Degi4ev" target="_blank" rel="noopener noreferrer" class="contact-channel-item">
+                <span class="channel-icon">✈️</span>
+                <div>
+                  <span class="channel-label">Telegram</span>
+                  <span class="channel-value">@Degi4ev</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/degi4" target="_blank" rel="noopener noreferrer" class="contact-channel-item">
+                <span class="channel-icon">🐙</span>
+                <div>
+                  <span class="channel-label">GitHub</span>
+                  <span class="channel-value">github.com/degi4</span>
+                </div>
+              </a>
+
+              <div class="contact-channel-item">
+                <span class="channel-icon">📍</span>
+                <div>
+                  <span class="channel-label">University Address</span>
+                  <span class="channel-value">9, Ziyolilar str., M.Ulugbek district, Tashkent</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Project inquiry / Just saying hi" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="4" class="form-input form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                <span>Send Message</span>
+                <span class="btn-arrow">✉</span>
+              </button>
+
+              <div class="form-status" id="form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-brand"><span class="prompt-prefix">denis@iut:</span><span class="prompt-tilde">~</span>$ exit 0</p>
+        <p class="footer-copy">© 2026 Denis • Inha University in Tashkent. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <p class="gruvbox-tag">Palette: <span>Gruvbox</span> • Pure HTML/CSS/JS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
